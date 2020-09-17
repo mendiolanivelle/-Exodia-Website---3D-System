@@ -32,14 +32,25 @@ include_once 'include/DBconnect.php';
     </div>
 
     <div class="Taskrow">
+      <div class="row TASKS justify-content-around" >
             <div class="col-md-6 Taskname">
                TASKNAME
+               <img class="Taskimage" src = "Images/Alexis.png" alt="" >
                 </div>
-                <div class="col-md-6 ">
-                SUBMIT YOUR OUTPUT HERE FOR QA
-            </div>
+                
+                <div class="col-md-6 UPLOAD">
+                     <form action="/action_page.php">
+                        <label for="img">Upload Image :</label>
+                        <input type="file" id="img" name="img" accept="image/*">   
+                        <textarea class="Qbox" name="w3review" rows="4" cols="55">PUT YOUR CONCERNS AND QUESTIONS HERE </textarea>      
+                        <br></br>         
+                     </form>
 
+                     <input class="Submit" type="submit" value="SUBMIT" >
+            </div>
+      </div>
     </div>
+    
 
     <div class="container Taskfield">
 
