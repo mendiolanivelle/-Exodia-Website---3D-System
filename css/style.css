@@ -1,0 +1,128 @@
+.Exodia_Logo
+    {
+    position :absolute;
+    left:3%;
+    top:3%;
+    }
+.Time{
+    Font-family:HelveticaNeue;
+    font-weight:300;
+    font-size:72px;
+    position :absolute;
+    right:3%;
+    top:3%;
+
+}    
+.Black_Background
+    {
+    position: absolute;
+    top:23%;
+    left:0%;
+    background-color:black;
+    width:100%;    
+    height:55%;
+    
+    }    
+.EXODIA{
+    Font-family:HelveticaNeue;
+    font-weight:300;
+    letter-spacing:12px; 
+    padding-top:3%;
+    text-align:center;
+    Font-size:72px;
+    Color:white;
+}   
+.QUOTES{
+    Font-family:HelveticaNeue;
+    font-weight:500; 
+    padding-top:3%;
+    text-align:center;
+    Font-size:36px;
+    Color:white;
+}
+.button {
+    Text-align:center;
+    position:absolute;
+    left:43%;
+    top:65%;
+    Font-family:HelveticaNeue;
+    font-weight:600;
+    font-size:25px;  
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px ;
+    padding-left:40px;
+    padding-right:40px;
+    text-decoration: none;
+    
+    cursor: pointer;
+}
+
+/*Exodia_Projects.php*/
+
+.Task{
+    text-align:center;
+    padding-top:180px;
+    margin-right:10%;
+    padding-bottom:180px;
+    background-color: #0e0e0e;    
+    color:white; 
+    text-decoration:none;
+}
+
+.Quality{
+    text-align:center;
+    padding-top:180px;
+    padding-bottom:180px;
+    background-color: #0e0e0e;  
+    color:white;   
+    text-decoration:none;
+}
+
+.Quantification{
+    text-align:center;
+    padding-top:180px;
+    padding-bottom:180px;
+    margin-left:10%;
+    background-color: #0e0e0e;      
+    color:white; 
+    text-decoration:none;
+    
+}
+.WorkerRow{
+   padding-top:15%;
+   text-decoration:none;
+   margin:none;
+  
+}
+
+/*Exodia_Projects_Task.php*/
+.Taskheader{
+    padding-top: 10%; 
+  
+    padding-left:0%;
+}
+.TASKS{
+    text-align:left;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left:10%;
+  
+}
+.SUBMITYOUR{
+    text-align:center;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.Taskrow{
+   position: absolute;
+    top:23%;
+    left:0%;
+    background-color:black;
+    width:100%;    
+    height:55%;
+    
+}

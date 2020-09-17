@@ -8,12 +8,13 @@ include_once 'include/DBconnect.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/Time.js"> </script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Exodia_Worker_landingpage
     </title>
 </head>
 <body onload="realtimeClock()">
    
-    <img class="Exodia_Logo" src="images/Exodia_Logo.png" alt=>
+    <img class="Exodia_Logo" src = "Images/Exodia_Logo.png" alt="" >
 
     <div class="Time" id = "Time">
     </div>
@@ -36,10 +37,11 @@ include_once 'include/DBconnect.php';
                     echo $QoutesData[rand(0,count($QoutesData) - 1)];
                     echo '</div> ';
                 }
+                
             ?>
             
             </div>  
-            <a href="#" class="button">INITIALIZE</a>
+            <a href="Exodia_projects.php" class="button">INITIALIZE</a>
     </div>
    
 
@@ -48,68 +50,5 @@ include_once 'include/DBconnect.php';
 </html>
 
 <style>
-.Exodia_Logo
-    {
-    position :absolute;
-    left:3%;
-    top:3%;
-    }
-.Time{
-    Font-family:HelveticaNeue;
-    font-weight:300;
-    font-size:72px;
-    position :absolute;
-    right:3%;
-    top:3%;
-
-}    
-.Black_Background
-    {
-    position: absolute;
-    top:23%;
-    left:0%;
-    background-color:black;
-    width:100%;    
-    height:55%;
-    
-    }    
-.EXODIA{
-    Font-family:HelveticaNeue;
-    font-weight:300;
-    letter-spacing:12px; 
-    padding-top:3%;
-    text-align:center;
-    Font-size:72px;
-    Color:white;
-}   
-.QUOTES{
-    Font-family:HelveticaNeue;
-    font-weight:500; 
-    padding-top:3%;
-    text-align:center;
-    Font-size:36px;
-    Color:white;
-}
-.button {
-    Text-align:center;
-    position:absolute;
-    left:43%;
-    top:65%;
-    Font-family:HelveticaNeue;
-    font-weight:600;
-    font-size:25px;  
-    border-radius: 40px;
-    background-color: white;
-    border: none;
-    color: black;
-    padding: 15px ;
-    padding-left:40px;
-    padding-right:40px;
-    text-decoration: none;
-    
-    cursor: pointer;
-}
-
-
 
 </style>
